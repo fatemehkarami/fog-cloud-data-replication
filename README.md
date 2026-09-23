@@ -127,3 +127,8 @@ tests/
 README.md
 .gitignore
 ```
+
+## Limitations
+- The evaluation is simulation-based.
+- No real production cloud or edge deployment was performed.
+- Results depend on the defined workloads, topology, failure scenarios, and simulation assumptions.
