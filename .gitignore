@@ -1,0 +1,29 @@
+# Local and editor metadata
+.DS_Store
+.vscode/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated experiment checkpoints and derived result artifacts
+results/*
+!results/phase23_final_run_metrics.csv
+!results/charts/
+!results/charts/*.png
+!results/charts/*.pdf
+
+# Temporary files created while writing checkpoints or reports
+results/*.tmp
+results/*.partial
+results/*_raw.json
+
+# Local document/source artifacts
+*.pdf
+!results/charts/*.pdf
+
+# Obsolete analysis scripts tied to historical/counterfactual Phase 23/24 outputs
+scripts/analyze_phase23.py
+scripts/inspect_phase24.py
+scripts/phase24b_sanity.py
